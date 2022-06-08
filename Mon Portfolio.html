@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Thaddée Romain DZON-OKO</title>
+    <meta name="description" content="Hey, je m'appelle Thaddée Romain DZON-OKO, et je suis en DUT INFORMATIQUE en Année Spéciale à l'IUT de Villetaneuse." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:url" content="https://www.thaddeeromain.com" />
+    <meta name="og:type" content="website" />
+    <meta name="og:title" content="Thaddée Romain" />
+    <meta name="og:description" content="Etudiant en DUT INFORMATIQUE EN ANNEE SPECIALE" />
+    <meta name="og:image" content="thaddee_romain.png" />
+    <meta name="og:image:width" content="1600" />
+    <meta name="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@RomainThaddee" />
+    <meta name="twitter:title" content="Thaddée Romain" />
+    <meta name="twitter:description" content="Aucune raison de me suivre. Toujours pas blogueur, pas journaliste, pas photographe et encore moins influenceur." />
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1399405574777880585/KqZA8QFN_400x400.jpg" />
+    <meta name="Portfolio" content="Thaddée Romain DZON-OKO">
+    <meta name="theme-color" content="#f8f2f9">
+    <style>
+        @charset "UTF-8";
+        html {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+        
+        *,
+         :after,
+         :before {
+            -webkit-box-sizing: inherit;
+            box-sizing: inherit
+        }
+        
+        body {
+            background: #fff;
+            color: #2e225c;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: none;
+            -moz-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+            text-size-adjust: none;
+        }
+        
+        code,
+        pre {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+        
+        a {
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects
+        }
+        
+         ::-moz-selection {
+            background: #36286c;
+            color: #36286c
+        }
+        
+         ::selection {
+            background: #36286c;
+            background: #36286c;
+            color: #36286c
+        }
+        
+        [hidden] {
+            display: none
+        }
+        
+        .section {
+            border: solid;
+            border-width: 0 .625rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 1.25rem .625rem;
+            position: relative;
+            min-height: 50vh;
+            clip: rect(0, auto, auto, 0)
+        }
+        
+        .section:after,
+        .section:before {
+            content: "";
+            display: block;
+            height: .625rem;
+            margin: 0 1.25rem;
+            position: fixed;
+            right: 0;
+            left: 0;
+            z-index: 1
+        }
+        
+        .section:before {
+            top: 0
+        }
+        
+        .section:after {
+            bottom: 0
+        }
+        
+        .section--header {
+            border-color: #ffffff;
+            background: #ffffff;
+            color: #fff;
+            min-height: 22.5rem;
+            z-index: 2;
+            overflow: hidden;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+        
+        .section--header:after,
+        .section--header:before {
+            background: #2e225c;
+        }
+        
+        .section--header video {
+            display: none;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            max-width: 100%;
+        }
+        
+        .section--header video {
+            display: block;
+        }
+        
+        .section--main {
+            background: #36286c;
+            border-color: #2e225c;
+            color: #8f81c2;
+            min-height: calc(100vh - 22.5rem);
+            z-index: 1
+        }
+        
+        .section--main:after,
+        .section--main:before {
+            background: #2e225c
+        }
+        
+        @media (min-width:480px) {
+            .section {
+                border-width: 0 1.25rem;
+                padding: 2.5rem 1.25rem
+            }
+            .section:after,
+            .section:before {
+                height: 1.25rem
+            }
+        }
+        
+        @media (max-width:999px) {
+            .section:after,
+            .section:before {
+                margin: 0;
+                position: absolute
+            }
+            .section--header {
+                padding-bottom: 1.25rem
+            }
+            .section--header:after,
+            .section--main:before {
+                display: none
+            }
+            .section--main {
+                padding-top: 1.25rem
+            }
+        }
+        
+        @media (min-width:1000px) {
+            .section--header {
+                border-right: 0;
+                position: fixed;
+                overflow: hidden;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                max-width: 100%;
+            }
+            .section--main {
+                border-left: 0;
+                margin-left: auto;
+                width: 60%;
+                min-height: 100vh
+            }
+        }
+        
+        @media (min-width:1200px) {
+            .section {
+                width: 50%
+            }
+        }
+        
+        .code-block {
+            margin: 0
+        }
+        
+        .code {
+            font-family: Fira Mono, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+            text-align: left;
+            white-space: pre-wrap;
+            word-spacing: normal;
+            word-break: normal;
+            word-wrap: break-word;
+            -moz-tab-size: 2;
+            -o-tab-size: 2;
+            tab-size: 2;
+            -webkit-hyphens: none;
+            -ms-hyphens: none;
+            hyphens: none;
+            counter-reset: a
+        }
+        
+        .code-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+            border: 0
+        }
+        
+        .code-line {
+            counter-increment: a;
+            display: inline-table;
+            padding-left: 3ch;
+            position: relative
+        }
+        
+        .code-line:before {
+            content: counter(a) "\a●\a●\a●\a●\a●\a●\a●\a●\a●\a●";
+            display: inline-block;
+            opacity: .5;
+            position: absolute;
+            width: 3ch;
+            top: 0;
+            bottom: 0;
+            left: -1ch;
+            overflow: hidden;
+            text-align: right
+        }
+        
+        .code-line:after {
+            opacity: .25;
+            content: "¬"
+        }
+        
+        .code-space {
+            opacity: .25;
+            display: table-cell;
+            vertical-align: top;
+            position: relative;
+            white-space: pre
+        }
+        
+        .code-space:before {
+            content: "··········";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            overflow: hidden;
+            white-space: nowrap
+        }
+        
+        .code-line:after,
+        .code-line:before,
+        .code-space:before {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+        
+        .code-key {
+            color: #f13e54
+        }
+        
+        .code-key-alt {
+            color: #fa9765
+        }
+        
+        .code-value {
+            color: #40dd5a
+        }
+        
+        .code-link {
+            color: #2cdceb
+        }
+        
+        a.code-link,
+        a.code-value,
+        button.code-link,
+        button.code-value {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: 0 0;
+            border: 0;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            padding: 0;
+            margin: 0;
+            text-decoration: none
+        }
+        
+        a.code-link:hover,
+        a.code-value:hover,
+        button.code-link:hover,
+        button.code-value:hover {
+            text-decoration: underline
+        }
+        
+        @media (max-width:480px) {
+            .code-block {
+                font-size: 75%
+            }
+        }
+        
+        @media (max-width:640px) {
+            .code-indent {
+                display: none
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="section section--header" id="logo">
+        <video src="Logo_Thaddee.mp4" type="video/mp4" autoplay></video>
+    </header>
+    <main class="section section--main" itemscope itemtype="http://schema.org/Person">
+        <pre class="code-block"><code class="code"><span class="code-line">{</span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Nom</span><span class="code-hidden">"</span>: "<span class="code-value" itemprop="name">Thaddée Romain DZON-OKO</span>",</span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Professon</span><span class="code-hidden">"</span>: <span class="code-indent"> </span>"<span class="code-value" itemprop="jobTitle">Etudiant en DUT Informatique</span>",</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">E-mail</span><span class="code-hidden">"</span>: </span>"<a href="mailto:thaddeedzon@icloud.com" class="code-link" itemprop="email">thaddeedzon@icloud.com</a>",</span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Adresse</span><span class="code-hidden">"</span>: "<span class="code-value" itemprop="workLocation" itemscope itemtype="http://schema.org/Place"><span itemprop="name">23</span>, <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">rue Alcide de Gasperi</span>, <span itemprop="postalCode">77000</span> <span itemprop="addressLocality">Melun</span></span><meta itemprop="description" content="Alcide de Gasperi"/></span>",</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">A propos de moi</span><span class="code-hidden">"</span>: ["<span class="code-value">Etant en DUT Informatique en Année Spéciale à l'IUT de Villetaneuse, actuellement à la recherche d'un stage dans le cadre de ma formation d'une durée de deux mois à partir du 13 juin 2022  pour pouvoir valider mon diplôme. Je suis un féru de tout ce qui touche à l'informatique. Ce que j'aime le plus dans l'informatique, c'est le web et l'aspect du design qui . Passionné dans ces domaines, j'ai pu acquérir de nombreuses compétences et des connaissances dans mon parcours. Rassurez-vous, l'informatique n'est pas ma seule passion. J'aime aussi le football . Grâce au football, j'ai pu apprendre et développer des compétences humaines qui me sont importantes opur la suite de mes études. Vous trouverez ici mes travaux réalisés dans le cadre de mes études et de ma carrière professionnelle. Pour plus d'informations, vous pouvez me contacter via mon e-mail qui se trouve en haut la page. Vous pouvez également télécharger mon CV si vous le souhaitez dans la section Parcours.</span>"],</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Mon parcours</span>"<span class="code-hidden"></span>: ["<span class="code-value"></span><a href="Cv Stage.pdf" target="_blank" rel="noopener" class="code-link" title="CV" itemprop="name"><meta itemprop="name" content="CV" />CV</a>"],</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Expériences</span><span class="code-hidden">"</span>: {</span>
+<span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">2021</span>-<span class="code-key-alt">20??</span>": "<span class="code-value">Bénévol</span>",</span>@ <span class="code-value">Association G2</span>",</span>
+<span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">2020</span>-<span class="code-key-alt">2020</span>": "<span class="code-value">Stagiaire en maintenance Informatique</span> @ <span class="code-value">MIPL</span>",</span>
+<span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">2020</span>-<span class="code-key-alt">2020</span>": "<span class="code-value">Inducteur</span> @ <span class="code-value">Amazon</span>",</span>
+<span class="code-line"><span class="code-space">  </span>},</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Compétences</span><span class="code-hidden">"</span>: ["<span class="code-value" title="Hypertext Marking Language">HTML</span>", "<span class="code-value" title="Cascading Style Sheets">CSS</span>", "<span class="code-value" title="Python Language">Python</span>"<span id="more-toggle">, "<button class="code-link" type="button">…</button>"</span><span id="more-content" hidden>, "<span class="code-value">React</span>", "<span class="code-value">Vue</span>", "<span class="code-value">Next.js</span>", "<span class="code-value">Nuxt.js</span>"</span>],</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Projets</span><span class="code-hidden">"</span>: [</span>
+<span class="code-line" itemscope itemtype="http://schema.org/Product"><meta itemprop="name" content="GLPI" /><span class="code-space">    </span>"<a href="presentation-glpi-pp1.docx" target="_blank" rel="noopener" class="code-link" title="GLPI" itemprop="name">GLPI (Gestion de Logiciel de Parc Informatique)</a>",</span>
+<span class="code-line" itemscope itemtype="http://schema.org/Product"><meta itemprop="name" content="Deploiement Léger et lourd Fédora 14" /><span class="code-space">    </span>"<a href="TP Déploiement lourd-Léger.pdf" target="_blank" rel="noopener" class="code-link" title="Déploiement lourd-Léger" itemprop="name">Déploiement_Lourd_et_Léger_Fédora14</a>",</span>
+<span class="code-line"><span class="code-space">  </span>],</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">Liens</span><span class="code-hidden">"</span>: {</span>
+<span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">Site-web</span>": "<a href="Mon Portfolio.html" target="_blank" rel="noopener" class="code-link" itemprop="url">thaddeedzon.com</a>",</span>
+<span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">Linkedin</span>": <span class='code-indent'> </span>"<a href="https://www.linkedin.com/in/dzon-oko/" target="_blank" rel="noopener" class="code-link" itemprop="sameAs">linkedin.com/dzon-oko/</a>",</span>
+<span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">twitter</span>": "<a href="https://twitter.com/RomainThaddee" target="_blank" rel="noopener" class="code-link" itemprop="sameAs">twitter.com/RomainThaddee/</a>"</span>
+<span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">github</span>": "<a href="https://github.com/thaddeeRomain" target="_blank" rel="noopener" class="code-link" itemprop="sameAs">github.com/thaddeeRomain/</a>"</span>
+<span class="code-line"><span class="code-space">  </span>}</span>
+<span class="code-line"><span class="code-space">    </span><a href="http://copyright.be" target="_blank" rel="noopener" class="code-link" itemprop="url">Copyright © 2021 ThaddeeDzon - Tous droits réservés</a>"</span>
+<span class="code-line">}</span></code></pre>
+    </main>
+    <script>
+        class Accordion {
+            constructor(el) {
+                // Store the <details> element
+                this.el = el;
+                // Store the <summary> element
+                this.summary = el.querySelector('summary');
+                // Store the <div class="content"> element
+                this.content = el.querySelector('.content');
+
+                // Store the animation object (so we can cancel it if needed)
+                this.animation = null;
+                // Store if the element is closing
+                this.isClosing = false;
+                // Store if the element is expanding
+                this.isExpanding = false;
+                // Detect user clicks on the summary element
+                this.summary.addEventListener('click', (e) => this.onClick(e));
+            }
+
+            onClick(e) {
+                // Stop default behaviour from the browser
+                e.preventDefault();
+                // Add an overflow on the <details> to avoid content overflowing
+                this.el.style.overflow = 'hidden';
+                // Check if the element is being closed or is already closed
+                if (this.isClosing || !this.el.open) {
+                    this.open();
+                    // Check if the element is being openned or is already open
+                } else if (this.isExpanding || this.el.open) {
+                    this.shrink();
+                }
+            }
+
+            shrink() {
+                // Set the element as "being closed"
+                this.isClosing = true;
+
+                // Store the current height of the element
+                const startHeight = `${this.el.offsetHeight}px`;
+                // Calculate the height of the summary
+                const endHeight = `${this.summary.offsetHeight}px`;
+
+                // If there is already an animation running
+                if (this.animation) {
+                    // Cancel the current animation
+                    this.animation.cancel();
+                }
+
+                // Start a WAAPI animation
+                this.animation = this.el.animate({
+                    // Set the keyframes from the startHeight to endHeight
+                    height: [startHeight, endHeight]
+                }, {
+                    duration: 400,
+                    easing: 'ease-out'
+                });
+
+                // When the animation is complete, call onAnimationFinish()
+                this.animation.onfinish = () => this.onAnimationFinish(false);
+                // If the animation is cancelled, isClosing variable is set to false
+                this.animation.oncancel = () => this.isClosing = false;
+            }
+
+            open() {
+                // Apply a fixed height on the element
+                this.el.style.height = `${this.el.offsetHeight}px`;
+                // Force the [open] attribute on the details element
+                this.el.open = true;
+                // Wait for the next frame to call the expand function
+                window.requestAnimationFrame(() => this.expand());
+            }
+
+            expand() {
+                // Set the element as "being expanding"
+                this.isExpanding = true;
+                // Get the current fixed height of the element
+                const startHeight = `${this.el.offsetHeight}px`;
+                // Calculate the open height of the element (summary height + content height)
+                const endHeight = `${this.summary.offsetHeight + this.content.offsetHeight}px`;
+
+                // If there is already an animation running
+                if (this.animation) {
+                    // Cancel the current animation
+                    this.animation.cancel();
+                }
+
+                // Start a WAAPI animation
+                this.animation = this.el.animate({
+                    // Set the keyframes from the startHeight to endHeight
+                    height: [startHeight, endHeight]
+                }, {
+                    duration: 400,
+                    easing: 'ease-out'
+                });
+                // When the animation is complete, call onAnimationFinish()
+                this.animation.onfinish = () => this.onAnimationFinish(true);
+                // If the animation is cancelled, isExpanding variable is set to false
+                this.animation.oncancel = () => this.isExpanding = false;
+            }
+
+            onAnimationFinish(open) {
+                // Set the open attribute based on the parameter
+                this.el.open = open;
+                // Clear the stored animation
+                this.animation = null;
+                // Reset isClosing & isExpanding
+                this.isClosing = false;
+                this.isExpanding = false;
+                // Remove the overflow hidden and the fixed height
+                this.el.style.height = this.el.style.overflow = '';
+            }
+        }
+
+        document.querySelectorAll('details').forEach((el) => {
+            new Accordion(el);
+        });
+    </script>
+</body>
+
+</html>
